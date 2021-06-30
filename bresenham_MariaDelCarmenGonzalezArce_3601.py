@@ -1,6 +1,4 @@
 from PIL import Image, ImageDraw
-#Image fornece uma classe com o mesmo nome que é usado para representar uma imagem PIL.
-#ImageDrawfornece gráficos 2D simples para Image, criar e editar imagens.
 
 def bresenhamLow(draw,x0,y0,x1,y1):
   dx = x1 - x0 #calcula tamanio de x (dx)
